@@ -1,0 +1,53 @@
+*{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+ul{
+    list-style-position: inside;
+    list-style-image: url("instagram.png");
+}
+
+li:first-child{
+    color:red;
+}
+
+li:last-child{
+    color: blue;
+}
+
+li:nth-child(3){
+    color: green;
+}
+
+li:nth-child(even){
+    color: purple;
+}
+
+li:nth-child(odd){
+    color: yellow;
+}
+
+li:nth-child(n+2){color: whitesmoke;}
+
+li:nth-child(3n+1){color:aqua;}
+
+li:nth-child(even){list-style-image: url("gorjeo.png");}
+
+a:link{color: green;}
+
+a:active{color: purple;}
+
+a:hover{color:aquamarine;}
+
+a:focus{background-color:yellowgreen;}
+
+a:visited {color:palevioletred;}
+
+p::first-letter{font-size: 2rem;}
+
+p::first-line{text-transform: uppercase;}
+
+p::before{content: initial;
+color:red;}
+
+p::after{
+    content: fin;
+    color: navajowhite;
+}
